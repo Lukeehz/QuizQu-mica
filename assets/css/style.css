@@ -1,0 +1,24 @@
+.limpar{
+    clear: both;
+}
+
+label {
+display: block; 
+}
+
+input[type="radio"] {
+margin-right: 10px; 
+}
+.escuroClaro{
+    font-size: 300%;
+}
+.gab{
+    font-size: 200%;
+}
+.semBorda{
+    border: none;
+}
+.linkDev{
+    font-weight: bold;
+    text-decoration: none;
+}

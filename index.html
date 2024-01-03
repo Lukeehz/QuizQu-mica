@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://kit.fontawesome.com/3e4115b899.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body id="corpo">
+    <header class="sticky-top">
+    <nav class="navbar bg-info" id="cabecalho">
+        <h4 class="m-auto" id="logo"> Quiz </h4>
+        <span class="float-end escuroClaro"><button type="button" id="modoEscuro" class="bg-info semBorda"><i id="sunMoon" class="fa-regular fa-sun"></i></button></span>
+      </nav>
+    </header>
+
+    <div class="p-2 text-center float-start"><a href="#gab" id="irGab" class=" linkDev py-4">Ir para o gabarito</a></div>
+    <div class="float-end p-2">
+        <h5 id="quant">Você tem:  <i class="px-2 fa-solid fa-coins text-warning"></i><span id="moeda">0</span></h5>
+    </div>
+
+    <main class="limpar">
+        <div class="container">
+            <div class="row my-4">
+
+                <!-- PERGUNTA 1 -->
+                
+                <h4 class="my-4 pergunta1">1 - Qual foi a principal contribuição do modelo atômico de Thomson para a compreensão da estrutura dos átomos?</h4>
+                <form action="" class="form">
+
+                    <!-- 1-A -->
+
+                <div class="col-md-3">
+                    <input type="radio" name="pergunta1" id="p1-a">
+                    <label class="d-inline py-4" for="p1-a"><span class="fw-bold">A)</span> Os elétrons estão distribuídos de forma uniforme na estrutura do átomo.</label>
+                </div>
+
+                <!-- 1-B -->
+
+                <div class="col-md-3">
+                    <input type="radio" name="pergunta1" id="p1-b">
+                    <label class="d-inline py-4" for="p1-b"><span class="fw-bold">B)</span> A matéria é composta por átomos indivisíveis e indestrutíveis.</label>
+                </div>
+
+                <!-- 1-C -->
+
+                <div class "col-md-3">
+                    <input type="radio" name="pergunta1" id="p1-c">
+                    <label class="d-inline py-4" for="p1-c"><span class="fw-bold">C)</span> O átomo possui um núcleo denso e uma eletrosfera com elétrons orbitando.</label>
+                </div>
+
+                <!-- 1-D -->
+
+                <div class="col-md-3">
+                    <input type="radio" name="pergunta1" id="p1-d">
+                    <label class="d-inline py-4" for="p1-d"><span class="fw-bold">D)</span> Os elétrons ocupam órbitas fixas ao redor do núcleo do átomo.</label>
+                </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-1">Responder</button>
+                <div id="resp1">
+                </div>
+            </form>
+            </div>
+
+            <!-- PERGUNTA 2 -->
+
+            <div class="row my-4">
+                <h4 class="pergunta2">2 - Qual modelo atômico propôs que os elétrons estão dispostos em órbitas quantizadas ao redor do núcleo?</h4>
+                <form action="" class="form2">
+
+                    <!-- 1- A -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta2" id="p2-a">
+                        <label class="d-inline py-4" for="p2-a">
+                            <span class="fw-bold">A)</span>Modelo de Thomson
+                        </label>
+                    </div>
+
+                    <!-- 2 - B -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta2" id="p2-b">
+                        <label class="d-inline py-4" for="p2-b">
+                            <span class="fw-bold">B)</span>Modelo de Rutherford
+                        </label>
+                    </div>
+
+                    <!-- 3 - C -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta2" id="p2-c">
+                        <label class="d-inline py-4" for="p2-c">
+                            <span class="fw-bold">C)</span>Modelo de Bohr
+                        </label>
+
+                        <!-- 4- D -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta2" id="p2-d">
+                        <label class="d-inline py-4" for="p2-d">
+                            <span class="fw-bold">D)</span>Modelo de Dalton
+                        </label>
+                    </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-2">Responder</button>
+                <div id="resp2">
+                </div>
+                </form>
+            </div>
+
+            <!-- PERGUNTA 3 -->
+
+            <div class="row">
+                <h4 class="pergunta3">3 - O que compõe o núcleo de um átomo?</h4>
+                <form action="" class="form3">
+
+                    <!-- 3 - A -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta3" id="p3-a">
+                        <label class="d-inline py-4" for="p3-a">
+                            <span class="fw-bold">A)</span>Elétrons
+                        </label>
+
+                        <!-- 3 - B -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta3" id="p3-b">
+                        <label class="d-inline py-4" for="p3-b">
+                            <span class="fw-bold">B)</span>Prótons e nêutrons
+                        </label>
+
+                        <!-- 3 - C -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta3" id="p3-c">
+                        <label class="d-inline py-4" for="p3-c">
+                            <span class="fw-bold">C)</span>Nêutrons
+                        </label>
+
+                        <!-- 3 - D -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta3" id="p3-d">
+                        <label class="d-inline py-4" for="p3-d">
+                            <span class="fw-bold">D)</span>Prótons
+                        </label>
+                    </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-3">Responder</button>
+                <div id="resp3">
+
+                </div>
+                </form>
+            </div>
+
+            <!-- PERGUNTA 4 -->
+            
+            <div class="row">
+                <h4 class="pergunta4">4 - Qual é o símbolo químico do elemento enxofre?</h4>
+                <form action="" class="form4">
+                    <div class="col-md-3">
+
+                        <!-- 4 - A -->
+
+                        <input type="radio" name="pergunta4" id="p4-a">
+                        <label class="d-inline py-4" for="p4-a">
+                            <span class="fw-bold">A)</span>S
+                        </label>
+                    </div>
+
+                    <!-- 4 - b -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta4" id="p4-b">
+                        <label class="d-inline py-4" for="p4-b">
+                            <span class="fw-bold">B)</span>E
+                        </label>
+                    </div>
+
+                    <!-- 4 - C -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta4" id="p4-c">
+                        <label class="d-inline py-4" for="p4-c">
+                            <span class="fw-bold">C)</span>En
+                        </label>
+                    </div>
+
+                    <!-- 4 - D -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta4" id="p4-d">
+                        <label class="d-inline py-4" for="p4-d">
+                            <span class="fw-bold">D)</span>Su
+                        </label>
+                    </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-4">Responder</button>
+                <div id="resp4"></div>
+                </form>
+            </div>
+
+            <!-- PERGUNTA 5 -->
+
+            <div class="row">
+                <h4 class="pergunta5">5 - O que ocorre na formação de uma ligação iônica?</h4>
+                <form action="" class="form5">
+                    <div class="col-md-3">
+
+                        <!-- 5 - A  -->
+
+                        <input type="radio" name="pergunta5" id="p5-a">
+                        <label class="d-inline py-4" for="p5-a">
+                            <span class="fw-bold">A)</span> Compartilhamento de elétrons
+                        </label>
+
+                        <!-- 5 - B -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta5" id="p5-b">
+                        <label class="d-inline py-4" for="p5-b">
+                            <span class="fw-bold">B)</span>Transferência de elétrons
+                        </label>
+
+                        <!-- 5 - C -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta5" id="p5-c">
+                        <label class="d-inline py-4" for="p5-c">
+                            <span class="fw-bold">C)</span>Repulsão entre cargas iguais
+                        </label>
+                    </div>
+
+                    <!-- 5 - D -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta5" id="p5-d">
+                        <label class="d-inline py-4" for="p5-d">
+                            <span class="fw-bold">D)</span>Formação de moléculas
+                        </label>
+                    </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-5">Responder</button>
+                <div id="resp5"></div>
+                </form>
+            </div>
+
+            <!-- PERGUNTA 6 -->
+
+            <div class="row">
+                <h4 class="pergunta6">6 - Quem propôs o modelo atômico em que os elétrons são distribuídos em nuvens de probabilidade ao redor do núcleo?</h4>
+                <form action="" class="form6">
+
+                    <!-- 6 - A -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta5" id="p6-a">
+                        <label class="d-inline py-4" for="p6-a">
+                            <span class="fw-bold">A)</span> John Dalton
+                        </label>
+
+                        <!-- 6 - B -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta6" id="p6-b">
+                        <label class="d-inline py-4" for="p6-b">
+                            <span class="fw-bold">B)</span>Ernest Rutherford
+                        </label>
+
+                        <!-- 6 - C -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta6" id="p6-c">
+                        <label class="d-inline py-4" for="p6-c">
+                            <span class="fw-bold">C)</span>Niels Bohr
+                        </label>
+
+                        <!-- 6 - D -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta6" id="p6-d">
+                        <label class="d-inline py-4" for="p6-d">
+                            <span class="fw-bold">D)</span>J.J. Thomson
+                        </label>
+                    </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-6">Responder</button>
+                <div id="resp6"></div>
+                </form>
+            </div>
+
+            <!-- PERGUNTA 7 -->
+
+            <div class="row">
+                <h4 class="pergunta7">7 - Qual é a carga do elétron?</h4>
+                <form action="" class="form7">
+
+                    <!-- 7 - A -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta7" id="p7-a">
+                        <label class="d-inline py-4" for="p7-a">
+                            <span class="fw-bold">A)</span> Positiva
+                        </label>
+
+                        <!-- 7 - B -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta7" id="p7-b">
+                        <label class="d-inline py-4" for="p7-b">
+                            <span class="fw-bold">B)</span>Negativa
+                        </label>
+
+                        <!-- 7 - C -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta7" id="p7-c">
+                        <label class="d-inline py-4" for="p7-c">
+                            <span class="fw-bold">C)</span>Neutra
+                        </label>
+
+                        <!-- 7 - D -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta7" id="p7-d">
+                        <label class="d-inline py-4" for="p7-d">
+                            <span class="fw-bold">D)</span>Variável
+                        </label>
+                    </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-7">Responder</button>
+                <div id="resp7"></div>
+                </form>
+            </div>
+
+            <!-- PERGUNTA 8 -->
+            
+            <div class="row">
+                <h4 class="pergunta8">8 - Qual é o nome de ligação química em que os elétrons são compartilhados de maneira desigual ?</h4>
+                <form action="" class="form8">
+
+                    <!-- 8 - A -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta8" id="p8-a">
+                        <label class="d-inline py-4" for="p8-a">
+                            <span class="fw-bold">A)</span> Ligação covalente polar
+                        </label>
+
+                        <!-- 8 - B -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta8" id="p8-b">
+                        <label class="d-inline py-4" for="p8-b">
+                            <span class="fw-bold">B)</span>Ligação Iônica
+                        </label>
+
+                        <!-- 8 - C -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta8" id="p8-c">
+                        <label class="d-inline py-4" for="p8-c">
+                            <span class="fw-bold">C)</span>Ligação covalente não polar
+                        </label>
+
+                        <!-- 8 - D -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta8" id="p8-d">
+                        <label class="d-inline py-4" for="p8-d">
+                            <span class="fw-bold">D)</span>Ligação metálica
+                        </label>
+                    </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-8">Responder</button>
+                <div id="resp8"></div>
+                </form>
+            </div>
+
+            <!-- PERGUNTA 9 -->
+
+            <div class="row">
+                <h4 class="pergunta9">9 - Onde estão localizados os elementos alcalinos na tabela periódica?</h4>
+                <form action="" class="form9">
+
+                    <!-- 9 - A -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta9" id="p9-a">
+                        <label class="d-inline py-4" for="p9-a">
+                            <span class="fw-bold">A)</span>  Ligação covalente polar
+                        </label>
+                    </div>
+
+                    <!-- 9 - B -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta9" id="p9-b">
+                        <label class="d-inline py-4" for="p9-b">
+                            <span class="fw-bold">B)</span> Ligação iônica
+                        </label>
+
+                        <!-- 9 - C -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta9" id="p9-c">
+                        <label class="d-inline py-4" for="p9-c">
+                            <span class="fw-bold">C)</span> Ligação covalente não polar
+                        </label>
+
+                        <!-- 9 - D -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta9" id="p9-d">
+                        <label class="d-inline py-4" for="p9-d">
+                            <span class="fw-bold">D)</span> Ligação metálica
+                        </label>
+                    </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-9">Responder</button>
+                <div id="resp9"></div>
+                </form>
+            </div>
+
+            <!-- PERGUNTA 10 -->
+
+            <div class="row">
+                <h4 class="pergunta10">10 - Quem propôs o modelo atômico em que os elétrons são dispersos em uma nuvem contínua de carga positiva?</h4>
+                <form action="" class="form10">
+
+                    <!-- 10 - A -->
+
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta10" id="p10-a">
+                        <label class="d-inline py-4" for="p10-a">
+                            <span class="fw-bold">A)</span>  Rutherford
+                        </label>
+
+                        <!-- 10 - B -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta10" id="p10-b">
+                        <label class="d-inline py-4" for="p10-b">
+                            <span class="fw-bold">B)</span> Dalton
+                        </label>
+
+                        <!-- 10 - B  -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta10" id="p10-c">
+                        <label class="d-inline py-4" for="p10-c">
+                            <span class="fw-bold">C)</span> Thomson
+                        </label>
+
+                        <!-- 10 - D -->
+
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" name="pergunta10" id="p10-d">
+                        <label class="d-inline py-4" for="p10-d">
+                            <span class="fw-bold">D)</span> Bohr
+                        </label>
+
+                    </div>
+                <button class="rounded-5 text-center w-100 my-4" id="bt-10">Responder</button>
+                <div id="resp10"></div>
+                </form>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <h5 id="gab">Gabarito</h5>
+                <button class="m-auto semBorda bg-white" id="btGab"><i class="gab fa-solid fa-table text"></i></button>
+                    <div class="col-md-3 ">
+                        <ul style="list-style-type: none;" id="resultGab">
+
+                        </ul>
+                 </div>
+            </div>
+        </div>
+    </main>
+
+    <p id="returnP" class="text-center linkDev py-4"><a href="#" class="text-dark linkDev" id="returnLink">Voltar o inicio</a></p>
+    <footer class="sticky-bottom bg-info" id="footer">
+        <div class="container-fluid">
+            <p id="dev" class="text-center">Powered by <span><a href="Luke" class="linkDev text-dark" id="linkDev">Luke</a></span></p>
+         </div>
+         &nbsp;
+    </footer>
+    <script src="assets/JavaScript/script.js"></script>
+</body>
+</html>
